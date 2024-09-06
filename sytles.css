@@ -8,11 +8,11 @@
     src: url(fonts/HeadingNow-74Regular.ttf);
 }
 h1{
-    font-family: headingnow-88heavyitalic;
+    font-family: 'headingnow-88heavyitalic', sans-serif;
     font-size: 60px;
 }
 body{
     background-color: rgb(255, 154, 52);
-    font-family: headingnow-74regular;
+    font-family: 'headingnow-74regular', sans-serif;
     font-size: 20px;
 }
