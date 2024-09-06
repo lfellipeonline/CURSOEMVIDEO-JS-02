@@ -1,0 +1,18 @@
+/* Os vários @font-face são temporarios até eu entender melhor como essa bomba funciona.*/
+@font-face {
+    font-family: 'headingnow-88heavyitalic';
+    src: url(fonts/HeadingNow-88HeavyItalic.ttf);
+}
+@font-face {
+    font-family: 'headingnow-74regular';
+    src: url(fonts/HeadingNow-74Regular.ttf);
+}
+h1{
+    font-family: headingnow-88heavyitalic;
+    font-size: 60px;
+}
+body{
+    background-color: rgb(255, 154, 52);
+    font-family: headingnow-74regular;
+    font-size: 20px;
+}
