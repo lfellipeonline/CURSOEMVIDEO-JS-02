@@ -22,9 +22,55 @@
 h1{
     font-family: 'headingnow-88heavyitalic', sans-serif;
     font-size: 80px;
+    text-align: center;
+    line-height: 1.2;
+    
 }
 body{
     background-color: rgb(255, 154, 52);
     font-family: 'headingnow-74regular', sans-serif;
     font-size: 20px;
 }
+
+#cliqueaqui{
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    font-size: 30px;
+}
+
+#resultado{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    margin-top: -50px;
+    opacity: 75%;
+}
+
+#inc{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    margin-top: 20px;
+}
+
+#aboboras{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-88heavy', sans-serif;
+    margin-top: 20px;
+}
+
+#cliqueaqui{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+}
+
+#img{
+    display: block;
+    margin: auto;
+}
+
+
+
