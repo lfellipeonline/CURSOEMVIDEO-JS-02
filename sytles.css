@@ -10,12 +10,18 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'headingnow-88heavy';
+    src: url(fonts/HeadingNow-88Heavy.ttf);
+    font-weight: normal;
+}
+
 
 
 /* Estilização do site */
 h1{
     font-family: 'headingnow-88heavyitalic', sans-serif;
-    font-size: 60px;
+    font-size: 80px;
 }
 body{
     background-color: rgb(255, 154, 52);
