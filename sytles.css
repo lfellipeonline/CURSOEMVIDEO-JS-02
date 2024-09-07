@@ -72,5 +72,33 @@ body{
     margin: auto;
 }
 
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 40px;
+    }
+    body{
+        font-size: 15px;
+    }
+    #cliqueaqui{
+        font-size: 20px;
+    }
+    #resultado{
+        font-size: 15px;
+    }
+    #inc{
+        font-size: 15px;
+    }
+    #aboboras{
+        font-size: 15px;
+    }
+    #cliqueaqui{
+        font-size: 15px;
+    }
+    #img{
+        width: 50%;
+    }
+    
+}
+
 
 
