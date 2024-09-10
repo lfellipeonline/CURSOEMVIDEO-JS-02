@@ -32,17 +32,29 @@ body{
     font-size: 20px;
 }
 
+/*Parâmetros "cliqueaqui"*/
 #cliqueaqui{
-    text-align: left;
-    margin-top: 20px;
-    font-family: 'headingnow-74regular', sans-serif;
-    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'headingnow-88heavy', sans-serif;;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: black;
 }
+@media screen {
+    #cliqueaqui:hover{
+        color: rgb(0, 136, 255);
+    }
+}
+
+
 
 #resultado{
     text-align: center;
     font-size: 20px;
-    font-family: 'headingnow-74regular', sans-serif;
+    font-family: 'headingnow-88heavy', sans-serif;
     opacity: 75%;
 }
 
@@ -56,20 +68,54 @@ body{
 #aboboras{
     text-align: center;
     font-size: 20px;
-    font-family: 'headingnow-88heavy', sans-serif;
-    margin-top: 20px;
-}
-
-#cliqueaqui{
-    text-align: center;
-    font-size: 20px;
     font-family: 'headingnow-74regular', sans-serif;
+    margin-top: 5px;
 }
 
 #img{
     display: block;
     margin: auto;
 }
+
+#nome{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    margin-top: 20px;
+}
+
+#letras{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    margin-top: 20px;
+}
+
+#easteregg{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    margin-top: 20px;
+}
+
+#calculo{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    margin-top: 20px;
+}
+
+#tamanhocalculo{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'headingnow-74regular', sans-serif;
+    margin-top: 20px;
+}
+
+
+
+
+
 
 
 /* Responsividade */
