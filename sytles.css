@@ -24,10 +24,12 @@ h1{
     font-size: 80px;
     text-align: center;
     line-height: 1.2;
+    margin-top: 50px;
+    margin-bottom: 0px;
     
 }
 body{
-    background-color: rgb(255, 154, 52);
+    background-color: rgb(255, 143, 7);
     font-family: 'headingnow-74regular', sans-serif;
     font-size: 20px;
 }
@@ -35,17 +37,18 @@ body{
 /*Parâmetros "cliqueaqui"*/
 #cliqueaqui{
     text-align: center;
+    margin:auto;
     font-size: 20px;
     color: white;
     font-family: 'headingnow-88heavy', sans-serif;;
-    border: 5px solid black;
-    padding: 10px;
+    padding: 20px;
     border-radius: 25px;
     background-color: black;
+    width: 750px;
 }
 @media screen {
     #cliqueaqui:hover{
-        color: rgb(0, 136, 255);
+        color: yellow
     }
 }
 
@@ -73,7 +76,7 @@ body{
 }
 
 #img{
-    display: block;
+    display:block;
     margin: auto;
 }
 
@@ -119,7 +122,7 @@ body{
 
 
 /* Responsividade */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 705px){
     h1{
         font-size: 40px;
     }
@@ -127,7 +130,9 @@ body{
         font-size: 15px;
     }
     #cliqueaqui{
-        font-size: 20px;
+        font-size: 15px;
+        width: 300px;
+
     }
     #resultado{
         font-size: 15px;
@@ -138,11 +143,24 @@ body{
     #aboboras{
         font-size: 15px;
     }
-    #cliqueaqui{
-        font-size: 15px;
-    }
     #img{
         width: 50%;
+        width: 290px;;
+    }
+    #nome{
+        font-size: 15px;
+    }
+    #letras{
+        font-size: 15px;
+    }
+    #easteregg{
+        font-size: 15px;
+    }
+    #calculo{
+        font-size: 15px;
+    }
+    #tamanhocalculo{
+        font-size: 15px;
     }
     
 }
