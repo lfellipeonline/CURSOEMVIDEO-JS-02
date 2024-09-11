@@ -5,10 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const easteregg = document.getElementById('easteregg')
     const calculo = document.getElementById('calculo')
     const tamanhocalculo = document.getElementById('tamanhocalculo')
+    const resultado = document.getElementById('resultado')
     
-    nomeexibição.innerText = (`Olá ${nome}.`)
     letras.innerText = (`Seu nome tem ${nome.length} letras.`)
     calculo.innerText = (`O resultado da soma foi ${String(soma)}.`)
+
+    if (nome !== '') {
+        nomeexibição.innerText = (`Olá ${nome}!`)
+        resultado.innerText = ('📄RESULTADO DAS ENQUETES📄')
+    }
 
     if (nomereplace == 'abobora') {
         easteregg.innerText = (`VOCÊ É UM DE NÓS!`)

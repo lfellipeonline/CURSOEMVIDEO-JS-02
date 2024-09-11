@@ -25,7 +25,9 @@ h1{
     text-align: center;
     line-height: 1.2;
     margin-top: 50px;
-    margin-bottom: 0px;
+    width: 50%;
+    margin: auto;
+
     
 }
 body{
@@ -59,6 +61,7 @@ body{
     font-size: 20px;
     font-family: 'headingnow-88heavy', sans-serif;
     opacity: 75%;
+    margin-top: 10px;
 }
 
 #inc{
@@ -125,6 +128,7 @@ body{
 @media screen and (max-width: 705px){
     h1{
         font-size: 40px;
+        width: 100%;
     }
     body{
         font-size: 15px;
@@ -136,6 +140,8 @@ body{
     }
     #resultado{
         font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: -10px;
     }
     #inc{
         font-size: 15px;
