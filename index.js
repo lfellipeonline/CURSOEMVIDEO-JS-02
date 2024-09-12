@@ -40,7 +40,7 @@ if (nome == '') {
 //Atributos dos números    
 let num1 = Number(prompt('Digite um numero:').replace(',', '.'))
 let num2 = Number(prompt('Digite outro numero:').replace(',', '.'))
-if (num1 == '' && num2 == '') {
+if (num1 === '' && num2 === '') {
     alert('Você não digitou um número! Por favor, atualize a página.')
     window.location.reload()
 }
@@ -58,3 +58,4 @@ function clicar() {
 
 //Exibição no console  
 console.log('Valor interno de nomereplace:', nomereplace)
+console.log('Valor interno de soma:', soma)
